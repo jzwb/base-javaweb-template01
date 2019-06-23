@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<base-javaweb-template01>
+    <setting name="isSiteEnabled" value="true"/>
+    <setting name="staticUrl" value=""/>
+    <setting name="rootPath" value=""/>
+    <setting name="cookiePath" value="/"/>
+    <setting name="cookieDomain" value=""/>
+</base-javaweb-template01>

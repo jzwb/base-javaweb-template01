@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd" updateCheck="false">
+	<diskStore path="${java.io.tmpdir}/${system.project_name}/cache" />
+	<cache name="authorization" maxElementsInMemory="100" timeToLiveSeconds="3600" eternal="false" overflowToDisk="false" />
+	<cache name="setting" maxElementsInMemory="100" eternal="true" overflowToDisk="true" />
+	<cache name="template" maxElementsInMemory="100" eternal="true" overflowToDisk="true" />
+	<cache name="articleHits" maxElementsInMemory="500" eternal="true" overflowToDisk="true" />
+	<cache name="articleLikes" maxElementsInMemory="500" eternal="true" overflowToDisk="true" />
+	<cache name="topicHits" maxElementsInMemory="500" eternal="true" overflowToDisk="true" />
+	<cache name="resumeUses" maxElementsInMemory="500" eternal="true" overflowToDisk="true" />
+	<cache name="resumeContentUses" maxElementsInMemory="500" eternal="true" overflowToDisk="true" />
+	<cache name="searchTimes" maxElementsInMemory="500" eternal="true" overflowToDisk="true" />
+	<cache name="productHits" maxElementsInMemory="500" eternal="true" overflowToDisk="true" />
+	<cache name="productPdfdown" maxElementsInMemory="500" eternal="true" overflowToDisk="true" />
+	<cache name="integer" maxElementsInMemory="500" timeToIdleSeconds="600" timeToLiveSeconds="3600" eternal="false" overflowToDisk="true" />
+	<cache name="bigDecimal" maxElementsInMemory="500" timeToIdleSeconds="600" timeToLiveSeconds="3600" eternal="false" overflowToDisk="true" />
+	<cache name="listObjects" maxElementsInMemory="500" timeToIdleSeconds="600" timeToLiveSeconds="3600" eternal="false" overflowToDisk="true" />
+	<cache name="area" maxElementsInMemory="500" timeToIdleSeconds="600" timeToLiveSeconds="3600" eternal="false" overflowToDisk="true" />
+	<cache name="seo" maxElementsInMemory="500" timeToIdleSeconds="600" timeToLiveSeconds="3600" eternal="false" overflowToDisk="true" />
+	<cache name="adPosition" maxElementsInMemory="500" timeToIdleSeconds="600" timeToLiveSeconds="3600" eternal="false" overflowToDisk="true" />
+	<cache name="memberAttribute" maxElementsInMemory="500" timeToIdleSeconds="600" timeToLiveSeconds="3600" eternal="false" overflowToDisk="true" />
+	<cache name="navigation" maxElementsInMemory="500" timeToIdleSeconds="600" timeToLiveSeconds="3600" eternal="false" overflowToDisk="true" />
+	<cache name="tag" maxElementsInMemory="500" timeToIdleSeconds="600" timeToLiveSeconds="3600" eternal="false" overflowToDisk="true" />
+	<cache name="tags" maxElementsInMemory="500" timeToIdleSeconds="600" timeToLiveSeconds="3600" eternal="false" overflowToDisk="true" />
+	<cache name="friendLink" maxElementsInMemory="500" timeToIdleSeconds="600" timeToLiveSeconds="3600" eternal="false" overflowToDisk="true" />
+	<cache name="article" maxElementsInMemory="500" timeToIdleSeconds="600" timeToLiveSeconds="3600" eternal="false" overflowToDisk="true" />
+	<cache name="articleCategory" maxElementsInMemory="500" timeToIdleSeconds="600" timeToLiveSeconds="3600" eternal="false" overflowToDisk="true" />
+	<cache name="topic" maxElementsInMemory="500" timeToIdleSeconds="600" timeToLiveSeconds="3600" eternal="false" overflowToDisk="true" />
+	<cache name="topicCategory" maxElementsInMemory="500" timeToIdleSeconds="600" timeToLiveSeconds="3600" eternal="false" overflowToDisk="true" />
+	<cache name="product" maxElementsInMemory="500" timeToIdleSeconds="600" timeToLiveSeconds="3600" eternal="false" overflowToDisk="true" />
+	<cache name="pages" maxElementsInMemory="500" timeToIdleSeconds="600" timeToLiveSeconds="3600" eternal="false" overflowToDisk="true" />
+	<cache name="productCategory" maxElementsInMemory="500" timeToIdleSeconds="600" timeToLiveSeconds="3600" eternal="false" overflowToDisk="true" />
+	<cache name="resumeCategory" maxElementsInMemory="500" timeToIdleSeconds="600" timeToLiveSeconds="3600" eternal="false" overflowToDisk="true" />
+	<cache name="review" maxElementsInMemory="500" timeToIdleSeconds="600" timeToLiveSeconds="3600" eternal="false" overflowToDisk="true" />
+	<cache name="resumePersonalTag" maxElementsInMemory="500" timeToIdleSeconds="600" timeToLiveSeconds="3600" eternal="false" overflowToDisk="true" />
+	<cache name="skill" maxElementsInMemory="500" timeToIdleSeconds="600" timeToLiveSeconds="3600" eternal="false" overflowToDisk="true" />
+	<cache name="hobby" maxElementsInMemory="500" timeToIdleSeconds="600" timeToLiveSeconds="3600" eternal="false" overflowToDisk="true" />
+	<cache name="messageNotification" maxElementsInMemory="500" timeToIdleSeconds="600" timeToLiveSeconds="3600" eternal="false" overflowToDisk="true" />
+	<cache name="resumePersonalTagUseNum" maxElementsInMemory="500" eternal="true" overflowToDisk="true" />
+	<cache name="hobbyUseNum" maxElementsInMemory="500" eternal="true" overflowToDisk="true" />
+	<cache name="skillUseNum" maxElementsInMemory="500" eternal="true" overflowToDisk="true" />
+	<cache name="memberOptList" maxElementsInMemory="500" timeToIdleSeconds="600" timeToLiveSeconds="3600" eternal="false" overflowToDisk="true" />
+	<cache name="upVipData" maxElementsInMemory="500" timeToIdleSeconds="600" timeToLiveSeconds="3600" eternal="false" overflowToDisk="true" />
+</ehcache>

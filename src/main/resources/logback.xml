@@ -1,0 +1,13 @@
+<configuration>
+	<property name="level" value="INFO" />
+	<property name="appenderRef" value="STDOUT" />
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder>
+			<pattern>[base-javaweb-template01] %d{YYYY-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} --%msg %n</pattern>
+		</encoder>
+	</appender>
+	<root level="${level}">
+		<appender-ref ref="${appenderRef}" />
+	</root>
+</configuration>
+
