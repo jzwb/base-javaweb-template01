@@ -13,7 +13,7 @@ import java.util.Set;
  * 校验工具类
  */
 @Component
-public class BeanValidation {
+public class BeanValidationUtils {
 
     //验证结果参数名称
     private static final String CONSTRAINT_VIOLATIONS_ATTRIBUTE_NAME = "constraintViolations";

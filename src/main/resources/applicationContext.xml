@@ -127,7 +127,7 @@
 				<entry key="siteUrl" value="${siteUrl}" />
 				<entry key="static" value="${static}" />
 				<entry key="locale" value="${common.locale}" />
-				<entry key="setting" value="#{T(net.shopxx.util.SettingUtils).get()}" />
+				<entry key="setting" value="#{T(com.jzwb.util.SettingUtils).get()}" />
 			</map>
 		</property>
 	</bean>

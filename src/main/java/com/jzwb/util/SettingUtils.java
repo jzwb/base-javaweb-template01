@@ -119,8 +119,8 @@ public final class SettingUtils {
         } else {
             setting = new Setting();
             try {
-                File shopxxXmlFile = new ClassPathResource(CommonAttributes.XML_PATH).getFile();
-                Document document = new SAXReader().read(shopxxXmlFile);
+                File xmlFile = new ClassPathResource(CommonAttributes.XML_PATH).getFile();
+                Document document = new SAXReader().read(xmlFile);
                 List<Element> elements = document.selectNodes("/base-javaweb-template01/setting");
                 for (Element element : elements) {
                     String name = element.attributeValue("name");
@@ -146,8 +146,8 @@ public final class SettingUtils {
      */
     public static void set(Setting setting) {
         try {
-            File shopxxXmlFile = new ClassPathResource(CommonAttributes.XML_PATH).getFile();
-            Document document = new SAXReader().read(shopxxXmlFile);
+            File xmlFile = new ClassPathResource(CommonAttributes.XML_PATH).getFile();
+            Document document = new SAXReader().read(xmlFile);
             List<Element> elements = document.selectNodes("/base-javaweb-template01/setting");
             for (Element element : elements) {
                 try {
@@ -168,7 +168,7 @@ public final class SettingUtils {
                 outputFormat.setIndent(true);
                 outputFormat.setIndent("	");
                 outputFormat.setNewlines(true);
-                fileOutputStream = new FileOutputStream(shopxxXmlFile);
+                fileOutputStream = new FileOutputStream(xmlFile);
                 xmlWriter = new XMLWriter(fileOutputStream, outputFormat);
                 xmlWriter.write(document);
             } catch (Exception e) {
