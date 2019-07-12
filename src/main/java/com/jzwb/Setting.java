@@ -12,6 +12,21 @@ public class Setting implements Serializable {
     //缓存key
     public static final Integer CACHE_KEY = 0;
 
+    //验证码类型
+    public enum CaptchaType {
+        adminLogin("管理员登陆"),
+        other("其他");
+        private String desc;
+
+        CaptchaType(String desc) {
+            this.desc = desc;
+        }
+
+        public String getDesc() {
+            return desc;
+        }
+    }
+
     //网站是否启用
     private Boolean isSiteEnabled;
     //静态资源路径
@@ -22,6 +37,8 @@ public class Setting implements Serializable {
     private String cookiePath;
     //cookie作用域
     private String cookieDomain;
+    //验证码类型
+    private CaptchaType[] captchaTypes;
 
     public Boolean getIsSiteEnabled() {
         return isSiteEnabled;
@@ -61,5 +78,13 @@ public class Setting implements Serializable {
 
     public void setStaticUrl(String staticUrl) {
         this.staticUrl = staticUrl;
+    }
+
+    public CaptchaType[] getCaptchaTypes() {
+        return captchaTypes;
+    }
+
+    public void setCaptchaTypes(CaptchaType[] captchaTypes) {
+        this.captchaTypes = captchaTypes;
     }
 }
