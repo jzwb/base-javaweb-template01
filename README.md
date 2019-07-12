@@ -19,3 +19,9 @@
 项目名：base-javaweb-template01
 
 运行环境：JDK8、Tomcat8、Maven3
+
+## 学习交流
+
+mail:jzwb@hotmail.com
+
+wx:dbzwbing
