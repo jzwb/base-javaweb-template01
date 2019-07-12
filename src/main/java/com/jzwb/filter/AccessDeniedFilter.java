@@ -17,7 +17,7 @@ import java.io.IOException;
 public class AccessDeniedFilter implements Filter {
 
 	//错误消息
-	private static final String ERROR_MESSAGE = "accessDenied";
+	private static final String ERROR_MESSAGE = "访问限制";
 
 	@Override
 	public void init(FilterConfig filterConfig) {

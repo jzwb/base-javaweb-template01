@@ -23,9 +23,6 @@ public class Setting implements Serializable {
     //cookie作用域
     private String cookieDomain;
 
-
-
-
     public Boolean getIsSiteEnabled() {
         return isSiteEnabled;
     }

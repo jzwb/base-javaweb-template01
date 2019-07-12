@@ -30,7 +30,6 @@ public class InitListener implements ServletContextAware, ApplicationListener<Co
 			String info = "I|n|i|t|i|a|l|i|z|i|n|g| |b|a|s|e|-|j|a|v|a|w|e|b|-|t|e|m|p|l|a|t|e| |" + systemVersion;
 			LOGGER.info(info.replace("|", ""));
 			PathUtils.init();
-
 		}
 	}
 }

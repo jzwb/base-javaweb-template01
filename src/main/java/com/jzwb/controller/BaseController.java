@@ -41,17 +41,6 @@ public class BaseController {
 	protected BeanValidationUtils beanValidationUtils;
 
 	/**
-	 * 数据绑定
-	 *
-	 * @param binder WebDataBinder
-	 */
-	@InitBinder
-	protected void initBinder(WebDataBinder binder) {
-		//binder.registerCustomEditor(String.class, new HtmlCleanEditor(true, true));
-		//binder.registerCustomEditor(Date.class, new DateEditor(true));
-	}
-
-	/**
 	 * 301跳转永久跳转
 	 *
 	 * @param url
@@ -174,17 +163,5 @@ public class BaseController {
 	 */
 	protected String message(String code, Object... args) {
 		return SpringUtils.getMessage(code, args);
-	}
-
-	/**
-	 * 添加瞬时消息
-	 *
-	 * @param redirectAttributes RedirectAttributes
-	 * @param message            消息
-	 */
-	protected void addFlashMessage(RedirectAttributes redirectAttributes, Message message) {
-		/*if (redirectAttributes != null && message != null) {
-			redirectAttributes.addFlashAttribute(FlashMessageDirective.FLASH_MESSAGE_ATTRIBUTE_NAME, message);
-		}*/
 	}
 }
