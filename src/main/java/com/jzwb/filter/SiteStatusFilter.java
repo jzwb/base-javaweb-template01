@@ -1,6 +1,6 @@
 package com.jzwb.filter;
 
-import com.jzwb.Setting;
+import com.jzwb.common.Setting;
 import com.jzwb.util.SettingUtils;
 import org.springframework.stereotype.Component;
 import org.springframework.util.AntPathMatcher;

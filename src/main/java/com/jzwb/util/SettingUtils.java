@@ -1,7 +1,7 @@
 package com.jzwb.util;
 
-import com.jzwb.CommonAttributes;
-import com.jzwb.Setting;
+import com.jzwb.common.CommonAttributes;
+import com.jzwb.common.Setting;
 import com.jzwb.converter.EnumConverter;
 import net.sf.ehcache.CacheManager;
 import net.sf.ehcache.Ehcache;

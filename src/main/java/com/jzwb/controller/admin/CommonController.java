@@ -1,18 +1,14 @@
 package com.jzwb.controller.admin;
 
 import com.alibaba.druid.util.StringUtils;
-import com.jzwb.Message;
 import com.jzwb.component.CaptchaUtils;
 import com.jzwb.controller.BaseController;
-import com.jzwb.entity.Test;
-import com.jzwb.service.TestService;
 import org.apache.commons.io.IOUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.ResponseBody;
 
 import javax.annotation.Resource;
 import javax.imageio.ImageIO;
@@ -20,7 +16,6 @@ import javax.servlet.ServletOutputStream;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.awt.image.BufferedImage;
-import java.util.List;
 
 /**
  * Controller - 通用

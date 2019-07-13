@@ -15,22 +15,22 @@
 <body>
     <div class="container">
         <div class="row">
-            <form class="col s12">
+            <form class="col s12" action="login.jsp" method="post">
                 <div class="row">
                     <div class="input-field col s12">
-                        <input id="username" type="text" class="validate">
+                        <input id="username" name="username" type="text" class="validate">
                         <label for="username">用户名</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="input-field col s12">
-                        <input id="password" type="password" class="validate">
+                        <input id="password" name="password" type="password" class="validate">
                         <label for="password">密码</label>
                     </div>
                 </div>
                 <div class="row">
                     <div class="input-field col s10">
-                        <input id="captcha" type="text" class="validate">
+                        <input id="captcha" name="captcha" type="text" class="validate">
                         <label for="captcha">验证码</label>
                     </div>
                     <div class="input-field col s2">

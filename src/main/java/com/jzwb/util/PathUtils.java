@@ -1,6 +1,6 @@
 package com.jzwb.util;
 
-import com.jzwb.Setting;
+import com.jzwb.common.Setting;
 import org.apache.commons.lang.StringUtils;
 
 /**

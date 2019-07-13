@@ -1,6 +1,6 @@
-package com.jzwb;
+package com.jzwb.common;
 
-import com.jzwb.Order.Direction;
+import com.jzwb.common.Order.Direction;
 
 import java.io.Serializable;
 import java.util.ArrayList;

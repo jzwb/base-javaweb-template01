@@ -1,15 +1,12 @@
 package com.jzwb.controller;
 
-import com.jzwb.Message;
+import com.jzwb.common.Message;
 import com.jzwb.component.BeanValidationUtils;
 import com.jzwb.component.SpringUtils;
 import org.apache.commons.lang.StringUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.ui.ModelMap;
-import org.springframework.web.bind.WebDataBinder;
-import org.springframework.web.bind.annotation.InitBinder;
-import org.springframework.web.servlet.mvc.support.RedirectAttributes;
 
 import javax.annotation.Resource;
 import javax.servlet.http.HttpServletRequest;

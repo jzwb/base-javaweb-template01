@@ -11,7 +11,7 @@ import org.springframework.web.servlet.LocaleResolver;
 import java.util.Locale;
 
 /**
- * Utils - Spring
+ * Component - SpringUtils
  */
 @Component("springUtils")
 @Lazy(false)

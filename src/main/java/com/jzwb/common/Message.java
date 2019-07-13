@@ -1,4 +1,4 @@
-package com.jzwb;
+package com.jzwb.common;
 
 import com.jzwb.component.SpringUtils;
 

@@ -1,6 +1,6 @@
 package com.jzwb.component;
 
-import com.jzwb.Setting;
+import com.jzwb.common.Setting;
 import com.jzwb.util.SettingUtils;
 import org.apache.commons.lang.ArrayUtils;
 import org.apache.commons.lang.StringUtils;
@@ -10,7 +10,7 @@ import javax.annotation.Resource;
 import java.awt.image.BufferedImage;
 
 /**
- * 验证码工具类
+ * Component - 验证码工具类
  */
 @Component
 public class CaptchaUtils {

@@ -1,9 +1,9 @@
 package com.jzwb.dao;
 
-import com.jzwb.Filter;
-import com.jzwb.Order;
-import com.jzwb.Page;
-import com.jzwb.Pageable;
+import com.jzwb.common.Filter;
+import com.jzwb.common.Order;
+import com.jzwb.common.Page;
+import com.jzwb.common.Pageable;
 
 import javax.persistence.LockModeType;
 import java.io.Serializable;

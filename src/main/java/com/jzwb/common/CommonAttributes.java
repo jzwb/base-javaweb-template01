@@ -1,4 +1,4 @@
-package com.jzwb;
+package com.jzwb.common;
 
 /**
  * 公共参数

@@ -36,8 +36,6 @@ public abstract class BaseEntity implements Serializable {
 	public static final String CREATE_DATE_PROPERTY_NAME = "createDate";
 	//修改日期属性名称
 	public static final String MODIFY_DATE_PROPERTY_NAME = "modifyDate";
-	//后台管理员登录状况
-	public static final String ADMIN_LOGIN_STATUS = "adminLoginStatus";
 
 	/**
 	 * 保存验证组

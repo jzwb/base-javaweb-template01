@@ -1,12 +1,12 @@
 package com.jzwb.dao.impl;
 
 import com.jzwb.dao.BaseDao;
-import com.jzwb.Filter;
-import com.jzwb.Filter.Operator;
-import com.jzwb.Order;
-import com.jzwb.Order.Direction;
-import com.jzwb.Page;
-import com.jzwb.Pageable;
+import com.jzwb.common.Filter;
+import com.jzwb.common.Filter.Operator;
+import com.jzwb.common.Order;
+import com.jzwb.common.Order.Direction;
+import com.jzwb.common.Page;
+import com.jzwb.common.Pageable;
 import com.jzwb.entity.OrderEntity;
 import org.apache.commons.lang.StringUtils;
 

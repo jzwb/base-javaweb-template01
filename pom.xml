@@ -32,6 +32,7 @@
         <org.springframework.session.version>1.2.2.RELEASE</org.springframework.session.version>
         <org.hibernate.version>4.1.6.Final</org.hibernate.version>
         <org.hibernate.hibernate-search-orm.version>4.1.1.Final</org.hibernate.hibernate-search-orm.version>
+        <org.apache.shiro.version>1.2.1</org.apache.shiro.version>
         <org.javassist.version>3.18.2-GA</org.javassist.version>
         <com.alibaba.druid.version>0.2.9</com.alibaba.druid.version>
         <mysql.version>5.1.16</mysql.version>
@@ -52,6 +53,8 @@
         <org.jsoup.version>1.7.3</org.jsoup.version>
         <jdom.version>1.1</jdom.version>
         <jaxen.version>1.1.1</jaxen.version>
+        <org.bouncycastle.version>1.47</org.bouncycastle.version>
+
     </properties>
 
     <dependencies>
@@ -138,6 +141,12 @@
             <groupId>org.javassist</groupId>
             <artifactId>javassist</artifactId>
             <version>${org.javassist.version}</version>
+        </dependency>
+        <!--shiro-->
+        <dependency>
+            <groupId>org.apache.shiro</groupId>
+            <artifactId>shiro-all</artifactId>
+            <version>${org.apache.shiro.version}</version>
         </dependency>
         <!-- mysql -->
         <dependency>
@@ -263,6 +272,11 @@
                     <artifactId>jdom</artifactId>
                 </exclusion>
             </exclusions>
+        </dependency>
+        <dependency>
+            <groupId>org.bouncycastle</groupId>
+            <artifactId>bcprov-jdk15on</artifactId>
+            <version>${org.bouncycastle.version}</version>
         </dependency>
     </dependencies>
     <build>

@@ -1,4 +1,4 @@
-package com.jzwb;
+package com.jzwb.common;
 
 import org.apache.commons.lang.builder.EqualsBuilder;
 import org.apache.commons.lang.builder.HashCodeBuilder;

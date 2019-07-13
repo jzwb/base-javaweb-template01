@@ -10,7 +10,7 @@ import javax.validation.Validator;
 import java.util.Set;
 
 /**
- * 校验工具类
+ * Component - 校验工具类
  */
 @Component
 public class BeanValidationUtils {
