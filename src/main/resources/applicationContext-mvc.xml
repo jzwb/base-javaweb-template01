@@ -41,6 +41,12 @@
 				<property name="entityManagerFactory" ref="entityManagerFactory" />
 			</bean>
 		</mvc:interceptor>
+		<mvc:interceptor>
+			<mvc:mapping path="/admin/**" />
+			<bean id="webContentInterceptor" class="org.springframework.web.servlet.mvc.WebContentInterceptor">
+				<property name="cacheSeconds" value="0" />
+			</bean>
+		</mvc:interceptor>
 	</mvc:interceptors>
 
     <!-- 模板解析器 -->

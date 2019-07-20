@@ -56,7 +56,9 @@ public class AuthenticationFilter extends FormAuthenticationFilter {
 		boolean passCaptcha = false;
 		if (StringUtils.isNotBlank(captcha)) {
 			Object captchaAndLocale = httpServletRequest.getSession().getAttribute(SessionCaptchaStore.SESSIONCAPTCHA + captchaId);
-			passCaptcha = ((CaptchaAndLocale) captchaAndLocale).getCaptcha().validateResponse(captcha.toUpperCase());
+			if(captchaAndLocale != null){
+				passCaptcha = ((CaptchaAndLocale) captchaAndLocale).getCaptcha().validateResponse(captcha.toUpperCase());
+			}
 		}
 		return new AuthenticationToken(username, password, passCaptcha, rememberMe, host);
 	}

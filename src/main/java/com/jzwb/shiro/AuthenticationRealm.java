@@ -31,8 +31,6 @@ import java.util.List;
  */
 public class AuthenticationRealm extends AuthorizingRealm {
 
-	@Resource
-	private CaptchaUtils captchaUtils;
 	@Resource(name = "adminServiceImpl")
 	private AdminService adminService;
 
@@ -46,7 +44,7 @@ public class AuthenticationRealm extends AuthorizingRealm {
 	protected AuthenticationInfo doGetAuthenticationInfo(org.apache.shiro.authc.AuthenticationToken token) {
 		AuthenticationToken authenticationToken = (AuthenticationToken) token;
 		String username = authenticationToken.getUsername();
-		String password = new String(authenticationToken.getPassword());
+		String password = authenticationToken.getPassword() != null ? new String(authenticationToken.getPassword()) : null;
 		boolean passCaptcha = authenticationToken.getPassCaptcha();
 		String ip = authenticationToken.getHost();
 		if (!passCaptcha) {
