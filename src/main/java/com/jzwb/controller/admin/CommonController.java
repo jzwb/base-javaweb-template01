@@ -21,7 +21,7 @@ import java.awt.image.BufferedImage;
  * Controller - 通用
  */
 @Controller("adminCommonController")
-    @RequestMapping("/admin/common")
+@RequestMapping("/admin/common")
 public class CommonController extends BaseController {
 
     private static final Logger LOGGER = LoggerFactory.getLogger(CommonController.class);
@@ -60,5 +60,14 @@ public class CommonController extends BaseController {
         } finally {
             IOUtils.closeQuietly(servletOutputStream);
         }
+    }
+
+    /**
+     * 首页
+     * @return
+     */
+    @RequestMapping(value = "/index", method = RequestMethod.GET)
+    public String index() {
+        return "/admin/common/index";
     }
 }
