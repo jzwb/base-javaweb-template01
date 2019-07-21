@@ -70,4 +70,13 @@ public class CommonController extends BaseController {
     public String index() {
         return "/admin/common/index";
     }
+
+    /**
+     * 首页
+     * @return
+     */
+    @RequestMapping(value = "/list", method = RequestMethod.GET)
+    public String list() {
+        return "/admin/list";
+    }
 }
