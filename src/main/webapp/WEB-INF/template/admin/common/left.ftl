@@ -8,7 +8,7 @@
             </span>
         </a>
         <ul class="treeview-menu">
-            <li><a target="iframe" href="/admin/admin/list/">用户管理</a></li>
+            <li><a target="iframe" href="/admin/admin/list/">管理员管理</a></li>
             <li><a target="iframe" href="/admin/role/list/">角色管理</a></li>
         </ul>
     </li>

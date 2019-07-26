@@ -1,3 +1,23 @@
-.admin-list{
+.admin-content{
     margin-left: 0;
+}
+.admin-list-fitlers{
+    padding: 5px 9px 5px 9px;
+}
+.admin-list-fitlers.post{
+    border-bottom-color: #f4f4f4;
+    color: #444;
+    margin-bottom: 0;
+}
+.admin-list-fitlers .form-group{
+    margin-bottom: 5px;
+}
+.admin-list-fitlers .form-group label{
+    font-weight: normal;
+}
+.admin-list-tools{
+    padding: 10px 9px 10px 9px;
+}
+.admin-list{
+    padding: 0 9px 0 9px;
 }
