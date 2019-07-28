@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Admin 系统 | 首页</title>
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    [#include "/admin/include/css_static.ftl" /]
+    [#include "/admin/static/css_static.ftl" /]
 </head>
 
 <body class="hold-transition skin-blue sidebar-mini">
@@ -55,7 +55,7 @@
         </footer>
         <div class="control-sidebar-bg"></div>
     </div>
-    [#include "/admin/include/js_static.ftl"/]
+    [#include "/admin/static/js_static.ftl"/]
     <script>
     var $iframe = $('iframe');
 

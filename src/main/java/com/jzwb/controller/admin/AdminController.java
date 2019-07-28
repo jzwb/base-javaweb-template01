@@ -25,7 +25,8 @@ public class AdminController {
      * @return
      */
     @RequestMapping(value = "/list", method = RequestMethod.GET)
-    public String list(Pageable pageable, ModelMap model) {
+    public String list(Pageable pageable, String searchValue, String startDate, String endDate, ModelMap model) {
+        pageable.setPageSize(1);
         model.addAttribute("page", adminService.findPage(pageable));
         return "/admin/admin/list";
     }
