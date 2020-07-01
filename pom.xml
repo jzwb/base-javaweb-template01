@@ -35,7 +35,7 @@
         <org.apache.shiro.version>1.2.1</org.apache.shiro.version>
         <org.javassist.version>3.18.2-GA</org.javassist.version>
         <com.alibaba.druid.version>0.2.9</com.alibaba.druid.version>
-        <mysql.version>5.1.16</mysql.version>
+        <mysql.version>8.0.16</mysql.version>
         <redis.clients.version>2.6.3</redis.clients.version>
         <net.sf.ehcache.ehcache-core.version>2.5.7</net.sf.ehcache.ehcache-core.version>
         <net.sf.ehcache.ehcache-web.version>2.0.4</net.sf.ehcache.ehcache-web.version>
