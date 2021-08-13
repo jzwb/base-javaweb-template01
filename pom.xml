@@ -53,7 +53,7 @@
         <org.jsoup.version>1.7.3</org.jsoup.version>
         <jdom.version>1.1</jdom.version>
         <jaxen.version>1.1.1</jaxen.version>
-        <org.bouncycastle.version>1.47</org.bouncycastle.version>
+        <org.bouncycastle.version>1.67</org.bouncycastle.version>
 
     </properties>
 
