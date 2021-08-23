@@ -50,7 +50,7 @@
         <org.freemarker.version>2.3.20</org.freemarker.version>
         <com.octo.captcha.version>1.0</com.octo.captcha.version>
         <com.fasterxml.jackson.core.version>2.1.4</com.fasterxml.jackson.core.version>
-        <org.jsoup.version>1.7.3</org.jsoup.version>
+        <org.jsoup.version>1.14.2</org.jsoup.version>
         <jdom.version>1.1</jdom.version>
         <jaxen.version>1.1.1</jaxen.version>
         <org.bouncycastle.version>1.47</org.bouncycastle.version>
